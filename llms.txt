@@ -15,5 +15,5 @@ Status: coming soon (not yet in the App Store or on addons.mozilla.org). Pricing
 - Safari: if ads or trackers still load on one site, Safari's content blockers may be switched off for that site. Page menu → "Turn On Content Blockers"; globally: Settings → Apps → Safari → Content Blockers → Other Websites: On.
 
 ## Links
-- [Home](https://consentzap.app/)
-- [Privacy policy](https://consentzap.app/privacy.html)
+- [Home](https://consentzap.app/) — Markdown: https://consentzap.app/index.md
+- [Privacy policy](https://consentzap.app/privacy.html) — Markdown: https://consentzap.app/privacy.md

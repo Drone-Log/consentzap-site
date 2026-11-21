@@ -17,6 +17,8 @@ The site practises what the extension preaches: a static page with no build step
 | `robots.txt` | Allows all crawlers, points to the sitemap |
 | `sitemap.xml` | Page list for search engines |
 | `llms.txt` | Plain-text summary for AI assistants |
+| `index.md`, `privacy.md` | Markdown versions of the pages for agents (`<link rel="alternate" type="text/markdown">`); update them when the HTML text changes |
+| `.nojekyll` | Serve `.md` files as-is (no Jekyll conversion) |
 | `og-image.png` | Social share image (1200×630); source in `og/og.html` |
 | `CNAME` | Custom domain for GitHub Pages |
 
