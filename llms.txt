@@ -11,6 +11,9 @@ Status: coming soon (not yet in the App Store or on addons.mozilla.org). Pricing
 - Blocks 3,500+ known tracking domains (Disconnect list), third-party requests only, never a company's own resources on its own site.
 - Per-site "pause blocking" until the browser quits. Never clicks "Accept".
 
+## Troubleshooting
+- Safari: if ads or trackers still load on one site, Safari's content blockers may be switched off for that site. Page menu → "Turn On Content Blockers"; globally: Settings → Apps → Safari → Content Blockers → Other Websites: On.
+
 ## Links
 - [Home](https://consentzap.app/)
 - [Privacy policy](https://consentzap.app/privacy.html)
