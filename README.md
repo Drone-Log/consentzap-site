@@ -18,3 +18,7 @@ Static site for ConsentZap. No build step, no external resources, no cookies, no
    - optional `CNAME` for `www` → `<github-user>.github.io`
 
 `.app` domains are HTTPS-only (HSTS preloaded), so the site works only after GitHub has issued the certificate.
+
+## License
+
+Site code and content: MIT (see `LICENSE`).
