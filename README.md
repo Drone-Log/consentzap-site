@@ -17,6 +17,7 @@ The site practises what the extension preaches: a static page with no build step
 | `robots.txt` | Allows all crawlers, points to the sitemap |
 | `sitemap.xml` | Page list for search engines |
 | `llms.txt` | Plain-text summary for AI assistants |
+| `og-image.png` | Social share image (1200×630); source in `og/og.html` |
 | `CNAME` | Custom domain for GitHub Pages |
 
 ## Local preview

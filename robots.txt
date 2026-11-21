@@ -1,5 +1,6 @@
 # consentzap.app — everyone is welcome to index this site, including AI crawlers.
 User-agent: *
 Allow: /
+Disallow: /og/
 
 Sitemap: https://consentzap.app/sitemap.xml
