@@ -1,0 +1,16 @@
+# ConsentZap
+
+> ConsentZap is a browser extension for Safari (Mac, iPhone, iPad) and Firefox (desktop, Android) that rejects cookie-consent banners automatically through each website's own consent tool, checks that the refusal was actually saved, and blocks known trackers that load regardless of consent. It collects no data and makes no network requests of its own.
+
+Status: coming soon (not yet in the App Store or on addons.mozilla.org). Pricing will be announced at launch.
+
+## What it does
+- Answers consent banners with "reject" (or the most restrictive option) via the site's consent platform: OneTrust, Cookiebot, Didomi, Usercentrics, Google Funding Choices, CookieYes and about 1,200 more (rules from DuckDuckGo autoconsent, MPL-2.0). Walks through "Manage options" screens and objects to "legitimate interest" where offered.
+- Verifies the refusal by reading the site's own consent record (consent cookies, IAB TCF data) and reports "rejected — verified" only when proven; otherwise "dismissed — rejection not verified" or "failed".
+- Handles several consent banners on the same page.
+- Blocks 3,500+ known tracking domains (Disconnect list), third-party requests only, never a company's own resources on its own site.
+- Per-site "pause blocking" until the browser quits. Never clicks "Accept".
+
+## Links
+- [Home](https://consentzap.app/)
+- [Privacy policy](https://consentzap.app/privacy.html)
