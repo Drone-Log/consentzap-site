@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy — ConsentZap</title>
+  <meta name="description" content="ConsentZap collects no personal data. Everything runs on your device.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="/" aria-label="ConsentZap home">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2.5 4.5 7v8.6c0 7 4.9 12.5 11.5 14.4 6.6-1.9 11.5-7.4 11.5-14.4V7Z" fill="#2463eb"/><path d="m10.5 16.2 3.8 3.8 7.4-8" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        ConsentZap
+      </a>
+      <nav class="nav-links" aria-label="Main"><a href="/">Home</a></nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="prose">
+      <h1>Privacy policy</h1>
+      <p>Last updated: 21 November 2026</p>
+
+      <p><strong>Short version: ConsentZap collects no personal data.</strong> It has no accounts, no analytics and no telemetry, and it makes no network requests of its own.</p>
+
+      <h2>What the extension does on your device</h2>
+      <ul>
+        <li>On the pages you visit, it detects consent banners and answers them with the most restrictive choice offered.</li>
+        <li>It reads the site’s own consent record (for example a consent cookie or the IAB TCF data a site exposes) to check that the refusal was saved.</li>
+        <li>It blocks requests to known tracking domains using a list that ships inside the extension.</li>
+        <li>It keeps, only for the open tab and only on your device, the names of the consent tools it handled, their status, and the host names of blocked trackers, so the popup can show them. This is cleared when the tab closes or the browser quits.</li>
+        <li>Your settings (protection on/off, debug logs) are stored in the browser’s extension storage on your device.</li>
+      </ul>
+
+      <h2>What leaves your device</h2>
+      <p>Nothing, from the extension itself. The answers ConsentZap gives to consent banners are sent to the website by the site’s own consent tool, exactly as if you had clicked the buttons yourself.</p>
+
+      <h2>“Copy report”</h2>
+      <p>The popup can copy a status report to your clipboard. It contains the site name, the page address without query parameters, consent tool names, statuses and blocked tracker host names — no cookie values. It is only shared if you paste it somewhere.</p>
+
+      <h2>This website</h2>
+      <p>consentzap.app is a static site. It sets no cookies, runs no analytics and loads no external fonts or scripts. The hosting provider (GitHub Pages) may keep standard server logs, such as IP addresses, for security and operations.</p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the new version will be published on this page with a new date.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap"><div>© 2026 ConsentZap · <a href="/">Home</a></div></div>
+  </footer>
+</body>
+</html>
